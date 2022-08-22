@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Muli';
+}
+
+.home {
+  width: 100vw;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: 1px solid black;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  background-color: orangered;
+}
+
+.footer {
+  // bottom: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  background-color: green;
+  z-index: 4;
+}
+
+.DogCatWrapper {
+  height: auto;
+  width: 100%;
+  top:10%;
+  position: absolute;
+  // margin-top: 10%;
+  border: 2px solid blue;
+}
+
+.CatWrapper {
+  height: 40%;
+  width: 100%;
+  text-align: center;
+  // position: relative;
+}
+.CatCatWrapper {
+  height: 90%;
+  width: 100%;
+  // background-color: brown;
+  display: flex;
+  gap: 5px;
+  overflow-x: scroll;
+  margin: 5px 5px 10px 5px ;
+  // margin-bottom: 20px;
+}
+// .cat {
+//   height: 200px;
+//   width: 100%;
+  
+//   &:hover {
+//     transform: scale(1.2);
+//     transition: transform 0.2s;
+//   }
+// }
+.CatImage {
+  height: min-content;
+  width: 40vw;
+  padding: 5px 10px 5px 10px;
+  &:hover {
+    transform: scale(1.03);
+    transition: transform 0.2s;
+  }
+}
+
+
+.DogWrapper {
+  height: 40%;
+  max-height: 100%;
+  width: 100%;
+  text-align: center;
+  // position: absolute;
+  // toop
+}
+
+.DogDogWrapper {
+  height: 90%;
+  width: 100%;
+  // background-color: brown;
+  display: flex;
+  gap: 5px;
+  overflow-x: scroll;
+  padding-bottom: 1rem;
+}
+
+.DogWrap {
+  // width: 45%;
+  height: fit-content;
+}
+
+.card {
+  border: 1px solid;
+}
+
+.DogImage {
+  height: auto;
+  max-height: 50vh;
+  width: auto;
+  padding: 5px 10px 5px 10px;
+  &:hover {
+    transform: scale(1.03);
+    transition: transform 0.2s;
+  }
+}
+
+
+.hone {
+margin: 0;  
+}
+
+.hone:active {
+  transform: scale(1.1);
+  // text-shadow: 5px 5px greenyellow;
+  transition: transform 0.3s;
+}
+
+.enlarge { 
+  transform: scale(1.5);
+  &:hover {
+    transform: scale(1.5);
+    // transition: transform 0.2s;
+  }
+}

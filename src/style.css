@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Muli");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Muli';
+}
+
+.home {
+  width: 100vw;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: 1px solid black;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  background-color: orangered;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  background-color: green;
+  z-index: 4;
+}
+
+.DogCatWrapper {
+  height: auto;
+  width: 100%;
+  top: 10%;
+  position: absolute;
+  border: 2px solid blue;
+}
+
+.CatWrapper {
+  height: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+.CatCatWrapper {
+  height: 90%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  overflow-x: scroll;
+  margin: 5px 5px 10px 5px;
+}
+
+.CatImage {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 40vw;
+  padding: 5px 10px 5px 10px;
+}
+
+.CatImage:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.DogWrapper {
+  height: 40%;
+  max-height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.DogDogWrapper {
+  height: 90%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  overflow-x: scroll;
+  padding-bottom: 1rem;
+}
+
+.DogWrap {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.card {
+  border: 1px solid;
+}
+
+.DogImage {
+  height: auto;
+  max-height: 50vh;
+  width: auto;
+  padding: 5px 10px 5px 10px;
+}
+
+.DogImage:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.hone {
+  margin: 0;
+}
+
+.hone:active {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.enlarge {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.enlarge:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+/*# sourceMappingURL=style.css.map */
