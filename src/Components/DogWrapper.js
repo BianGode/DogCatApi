@@ -127,7 +127,7 @@ const DogWrapper = () => {
       .then(
         (names) => {
           for (const name in names.data) {
-            console.log(names.data[name].name);
+            // console.log(names.data[name].name);
             let funName = document.createElement('h3')
             funName.classList.add('funName')
             funName.innerText = names.data[name].name.firstname.name + " " + names.data[name].name.lastname.name

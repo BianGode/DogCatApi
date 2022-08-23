@@ -104,6 +104,9 @@ body {
 
 .card {
   border: 1px solid;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .DogImage {

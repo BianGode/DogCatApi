@@ -66,7 +66,7 @@ export default function CatWrapper() {
       .then(
         (Catresult) => {
           // console.log(Catresult)
-          console.log('test')
+          // console.log('test')
           CatList = Catresult
           RenderCats(CatList)
           return fetch('https://api.parser.name/?api_key=83b5cf6421f0c3c6b417b3ad582e2aae&endpoint=generate&results=6')
