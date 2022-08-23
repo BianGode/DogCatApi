@@ -42,6 +42,7 @@ const DogWrapper = () => {
       DogImg.onclick = () => {
         DogImg.classList.toggle('enlarge')
         DogImg.classList.toggle('DogImage')
+        console.log('1337')
       }
       // console.log(DogImg)
       dogWrap.append(DogImg)
