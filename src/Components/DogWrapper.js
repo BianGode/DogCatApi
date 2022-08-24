@@ -65,6 +65,7 @@ const DogWrapper = () => {
       .then(
         (names) => {
           for (const name in names.data) {
+            console.log(name)
             let funName = document.createElement('h3')
             funName.classList.add('funName')
             funName.innerText = names.data[name].name.firstname.name + " " + names.data[name].name.lastname.name
